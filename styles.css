@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: grey;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .left_Side
+{
+    position: relative;
+    background: #293940;
+    padding: 25px;
+}
+.profile
+{
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+.education
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.education ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 35px 0;
+}
+.education h5
+{
+    color: white;
+    font-weight: 750;
+}
+.education h4
+{
+    color: white;
+    font-weight: 500;
+}
+.interest ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 20px 0;
+}
+.interest .text
+{
+    color: white;
+    font-weight: 500;
+}
+.container .right_Side
+{
+    position: relative;
+    background: grey;
+    padding: 20px;
+}
+.personal
+{
+    margin-bottom: 50px;
+}
+.title2
+{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+p
+{
+    color: white;
+}
+.skills ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 20px 0;
+}
+.skills .text
+{
+    color: white;
+    font-weight: 500;
+}
+.experience ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 35px 0;
+}
+.experience h5
+{
+    color: white;
+    font-weight: 750;
+}
+.experience h4
+{
+    color: white;
+    font-weight: 500;
+}
